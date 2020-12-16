@@ -1,0 +1,39 @@
+#main 
+{   display: flex;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#telo {
+	border-style: solid;
+	border-color: #4C2F27;
+	height: 650px;
+	width: 20px;
+	background-image: linear-gradient(85deg, rgba(156,75,26,1) 41%, rgba(92,39,4,0.9766107126444328) 64%);;
+	position: relative;
+	left: 900px;
+	top: 250px;
+	border-radius: 5px;
+	z-index: 1;
+}
+#sera {
+  width: 70px;
+  height: 120px;
+  background: #1a0e0a;
+  border-radius: 50%;
+  position: relative;
+  left: 851.5px;
+  top: 135px;
+  z-index: 2;
+  box-shadow: 5px -15px  rgba(0, 0, 50, .2)
+  ;
+}
+#ogon {
+	background-image: linear-gradient(185deg, rgba(255,96,0,1) 41%, rgba(253,176,45,0.9766107126444328) 66%);
+	border: 2px solid orange;
+	width: 210px;
+	height: 250px;
+	border-radius: 100% 0% 66% 34% / 59% 0% 100% 41% ;
+	position: relative;
+	left: 740px;
+	z-index: 0;
+}
